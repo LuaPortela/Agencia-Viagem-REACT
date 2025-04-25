@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #222222;
+    text-align: center;
+    color:white;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+}
+
+.icones{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconesImg {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px)  {
+    .footer{
+        font-size: 14px;
+    }
+}

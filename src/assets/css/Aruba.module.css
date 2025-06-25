@@ -6,3 +6,12 @@
      padding-top: 30px;
      display: flex;
  }
+
+  @media screen and (max-width: 500px) {
+    .corpo {
+        background-size: cover;
+        height: 500px;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+}

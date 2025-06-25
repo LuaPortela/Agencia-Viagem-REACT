@@ -23,3 +23,16 @@ form{
 img{
     width:50px;
 }
+
+@media screen and (max-width: 500px) {
+    .corpo_texto,
+    form {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 40px;
+    }
+}

@@ -1,4 +1,4 @@
-import styles from '../css/componenteProps.module.css'
+import styles from '../css/ComponenteProps.module.css'
 
 function ComponenteProps({ lugar, texto, logo_texto }) {
   return (
